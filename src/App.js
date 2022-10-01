@@ -25,7 +25,7 @@ function App() {
   const [display, setDisplay] = useState("0");
   const [history, setHistory] = useState("");
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center px-2">
+    <div className="flex min-h-screen flex-col items-center justify-center gap-y-4 px-2">
       <div className="grid aspect-[2/3] w-full max-w-sm grid-cols-4 grid-rows-6 gap-1 rounded-lg bg-black p-2 font-mono text-2xl text-white">
         <div className="col-span-4 flex flex-col items-end justify-evenly rounded-lg bg-gray-800 px-2">
           <div className="text-lg text-green-600">{history}</div>
@@ -149,6 +149,9 @@ function App() {
           .
         </button>
       </div>
+      <a href="https://github.com/suateneskoc/freecodecamp-javascript-calculator">
+        GitHub
+      </a>
     </div>
   );
 }
