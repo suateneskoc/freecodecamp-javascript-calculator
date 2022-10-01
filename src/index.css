@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  button {
+    @apply row-span-1 transition duration-100 ease-out active:translate-y-0.5;
+  }
+}
