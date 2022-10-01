@@ -1,4 +1,4 @@
-/* eslint-disable no-eval */
+/* eslint-disable no-new-func */
 import { useState } from "react";
 
 const numberId = [
